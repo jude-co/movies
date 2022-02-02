@@ -1,0 +1,44 @@
+video {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+
+
+/*.container{
+  margin: 220px auto;
+  background: #aa00ff;
+  height: 30px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  transition: 0.8s;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+.container:hover input{
+  width: 350px;
+  cursor: pointer;
+}
+
+.container input{
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.8s;
+}
+
+.container a li .fas{
+  color:#aa00ff ;
+}*/
