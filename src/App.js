@@ -10,9 +10,9 @@ function App() {
         <source src={Background} />
       </video>
        <div className="container">
-        <input type="text" placeholder="search..." />
+        <input type="text" placeholder="Search..." />
           <div className="search-btn">
-            <i className="fas fa-search"></i>
+            <li className="fas fa-search"></li>
           </div>
         
        </div>
