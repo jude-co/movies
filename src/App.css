@@ -1,61 +1,70 @@
-
-App{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  display: flex;
-
+App {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
 }
 
 video {
-  position: absolute;
-  width: 100%;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
-  z-index: -1;
- 
+    position: absolute;
+    width: 100%;
+    /* left: 50%;
+    
+    height: 100%; */
+    top: -100;
+    /* background-size: cover; */
+    object-fit: cover;
+    z-index: -1;
 }
 
-.container{
-  margin: 220px auto;
-  width: 0px;
-  background: #fff;
-  height: 30px;
-  border-radius: 30px;
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  transition: 0.8s;
-  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+.container {
+    margin: 220px auto;
+    width: 10px;
+    background: transparent;
+    height: 30px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    transition: 0.8s;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
 }
 
-.container:hover input{
-  width: 350px;
-  background: #aa00ff;
-  cursor: pointer;
+.container input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.5s ease-in-out;
+    color: #000;
 }
 
-.container input{
-  background: transparent;
-  border: none;
-  outline: none;
-  width: 0px;
-  font-weight: 500;
-  font-size: 16px;
-  transition: 0.8s;
-  color: black;
+.container:hover {
+    width: 400px;
 }
 
-.search-btn{
-  color: red;
+.container:hover input,
+.container:focus input,
+.container:active input {
+    transition: 0.5s ease-in-out;
+    width: 350px;
+    height: 20px;
+    cursor: pointer;
+    display: block;
 }
 
 
+/* .container input:hover,
+.container input:focus {
+    width: 350px;
+    background: #9876a8;
+    cursor: pointer;
+} */
 
-
-
-
-
+.search-btn {
+    color: red;
+}
